@@ -1,0 +1,200 @@
+b/* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ==== HELPER COLORS FOR LAYOUT ==== */
+
+/* .navbar {
+    background-color: rgba(255, 248, 53, .3);
+}
+
+.intro {
+    background-color: rgba(100, 248, 53, .3);
+}
+
+.services {
+    background-color: rgba(255, 100, 53, .3);
+}
+
+.services_left {
+    background-color: rgba(75, 120, 193, .3);
+}
+
+.services_middle {
+    background-color: rgba(75, 120, 193, .3);
+}
+
+.services_right {
+    background-color: rgba(75, 120, 193, .3);
+}
+
+
+/* ==== BASE STYLES ==== */
+
+body,html {
+  font-family: 'Playfair Display', serif;
+  height: 100%;
+}
+
+
+
+/* ==== LAYOUT STYLES ==== */
+
+/* ==== Default Mobile View ==== */
+
+
+.welcome_p {
+  background-image:url(pic/raw/cosmetic.jpg);
+  min-height: 100%;
+  
+}
+
+.welcome_p {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.intro_p {
+  background-image:url(pic/raw/kennel.jpg);
+  min-height: 60%;
+}
+
+.intro_p {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.services_p {
+  background-image:url(pic/raw/kennel2.jpg);
+  min-height: 60%;
+}
+
+.services_p {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.intro {
+  min-height: 30%;
+  margin-bottom: 1.2em;
+  margin-top: 1.2em;
+}
+
+.intro_text {
+  line-height: 1.1em
+}
+
+.intro_left {
+  margin-left: 5%;
+  width: 40%;
+  display: inline-block;
+  float: left;
+}
+
+.intro_right {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  width: 40%;
+  display: inline-block;
+}
+
+.intro_right img {
+  width: 80%;
+  height: auto;
+  margin-left: 30%;
+}
+
+.services {
+  margin-left: 5%;
+}
+
+.services_left,
+.services_middle,
+.services_right {
+  width: 30%;
+  display: inline-block;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  
+}
+
+.services img {
+  width: 90%;
+  height: auto;
+}
+
+.footer_contacts i {
+}
+
+.footer_contact_info {
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+  margin-left: 5%;
+  width: 40%;
+  float: left;
+  line-height: 1.2em;
+}
+
+.footer_gmaps {
+  margin-top: 1.2em;
+  margin-left: 1.2em;
+  width: 45%;
+  float: left;
+}
+
+/* Desktop view */
+
+@media (min-width: 786px) {
+  
+}
